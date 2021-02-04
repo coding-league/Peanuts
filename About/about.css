@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  background-color: #fff;
+  color: #333;
+  font-family: 'lato', 'aArial', 'sans-serif';
+  font-size: 20px;
+  font-weight: 300;
+  box-sizing: border-box;
+  /* text-rendering: optimizeLegibility; */
+}
+/* .row */
+
+p{
+  /* font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  padding: 30px 50px ;
+  margin-right: 0px; */
+  
+}
+li{
+  display: inline;
+  margin-left: 10px;
+
+}
+.pnut-social-links{
+  background-color: #ffd400;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.pnut-menu ul li a{
+  color: #ddd;
+  display: inline;
+}
+
+header{
+  background: black;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 27px;
+  /* font: 400px; */
+  height: 200px;
+}
+.pnut-menu{
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px 40px 40px ;
+  margin-left: 140px;
+ 
+  
+
+}
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-youtube{
+  color: #000;
+}
+.pnut-menu menu{
+  color: #fff;
+}
+.item-title{
+  padding: 0px;
+  width: 100%;
+  font-size: 28px;
+  box-sizing: border-box;
+  line-height: 1.1px;
+  position: relative;
+  margin-left: 160px;
+
+}
+.calendar-input-link{
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  background: white;
+  font-size: 20px;
+}
+.calendar-input{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  float: none;
+  text-align: right;
+  padding: 0px 7.5px;
+  margin-right: 7.5px;
+  color: #000;
+}
+.calendar-form-control{
+  font-size: 20px;
+  height: 36px;
+  padding: 6px 12px;
+
+}
+.ion-calendar{
+  color: #1877b6;
+  font-size: 24px;
+  vertical-align: baseline;
+  width: 24px;
+  display: inline-block;
+  font: normal;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 20px;
+}
+
+
+/*    carasoul calender   */
+
+
+/* ////////////////////////////////////////////////////////// */
+/*                       FOOTER
+/* ////////////////////////////////////////////////////////// */
+
+footer{
+  background-color: #333;
+  
+}
+
+.row ul li a{
+  display: inline;
+  margin-right: 20px;
+  color: #ddd;
+  margin-left:0 auto;
+  
+  font-size: 20px;
+  text-align: center;
+}
+
+.row ul li a:link,
+.footer li a:visited{
+  border:0;
+  color: #615518;
+ 
+}
+
+ .row li a :hover,
+ .row li a :active{
+  color: #ddd;
+ }
+
+
+ /*             fit to iphone                 */
+ @media (max-width){
+   .sm-cool{
+     width: 100vh;
+     margin: 0;
+    }
+    .card-title {
+      font-size: 50px;
+      color: red;
+    }
+ }
+/*             fit to ipad                 */
+ @media (max-width){
+  .sm-cool{
+    width: 50vh;
+    margin: 0;
+   }
+   .card-title {
+     font-size: 50px;
+     color:#ffd400;
+   }
+}
+
+
+ /* vw: view width
+ /* vh: view height */
+
+
+ :root {
+   --main-color: rgb(121, 71, 71);
+   --tablet: 1000px;
+ }
+
+ .about-title{
+   display: inline-block;
+   width: auto;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   border-bottom: 3px solid;
+   border-bottom-color: rgb(255, 212, 0);
+   border-bottom-width: 3px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 25px;
+   padding: 10px 10px;
+   margin-left: 500px;
+
+ }
+
+ .about-pic img{
+   width: 80%;
+   height: auto;
+   border: 0;
+   margin: 10 40;
+   padding-left: 200px;
+  }
+.about-text p{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+.meet-the-gang{
+  display: inline-block;
+  width: auto;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 3px solid;
+  border-bottom-color: rgb(255, 212, 0);
+  border-bottom-width: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 10px 10px;
+  margin-left: 500px;
+}
+
+.meet-the-gang img{
+  border: solid;
+  border-color: #ffd400;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+}
+
+
+
+
+
+
+/* ***************************** */
+.image-grid img {
+  margin-bottom: 1rem;
+}
