@@ -62,7 +62,7 @@ header{
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-instagram,
-.ion-social-youtube{
+.ion-social-youtube {
   color: #000;
 }
 .pnut-menu menu{
@@ -78,44 +78,6 @@ header{
   margin-left: 160px;
 
 }
-.calendar-input-link{
-  border: 1px solid #cccccc;
-  border-radius: 1px;
-  background: white;
-  font-size: 20px;
-}
-.calendar-input{
-  display: inline-block;
-  height: auto;
-  width: auto;
-  float: none;
-  text-align: right;
-  padding: 0px 7.5px;
-  margin-right: 7.5px;
-  color: #000;
-}
-.calendar-form-control{
-  font-size: 20px;
-  height: 36px;
-  padding: 6px 12px;
-
-}
-.ion-calendar{
-  color: #1877b6;
-  font-size: 24px;
-  vertical-align: baseline;
-  width: 24px;
-  display: inline-block;
-  font: normal;
-  box-sizing: border-box;
-  cursor: pointer;
-  text-align: right;
-  margin-left: 20px;
-}
-
-
-/*    carasoul calender   */
-
 
 /* ////////////////////////////////////////////////////////// */
 /*                       FOOTER
@@ -216,10 +178,11 @@ footer{
   margin-bottom: 30px;
 }
 
-.meet-the-gang{
+.meet-the-gang,
+h2{
   display: inline-block;
   width: auto;
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'Courier New', Courier, monospace;
   border-bottom: 3px solid;
   border-bottom-color: rgb(255, 212, 0);
@@ -244,6 +207,57 @@ footer{
 
 
 /* ***************************** */
-.image-grid img {
+/* .image-grid img {
   margin-bottom: 1rem;
+} */
+
+.first-row,
+.second-row{
+  text-align: center;
+  margin-left: 45px;
+  padding-bottom: 80px;
 }
+.third-row{
+  margin-left: 180px;
+  padding-bottom: 200px;
+
+
+}
+
+.pic{
+  border: #ffd400 5px solid;
+  margin-right: 22px;
+
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 70px;
+  line-height: 60px; 
+}
+
+.row ul li a{
+  display: inline;
+  /* margin-right: 20px; */
+  color: #ddd;
+  /* margin-left:0 auto; */
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.row ul li a:link,
+.footer li a:visited{
+  border:0;
+  color: #ddd;
+  
+ 
+}
+
+ .row li a :hover,
+ .row li a :active{
+  color: #ddd;
+  border-bottom: solid;
+  
+ }
