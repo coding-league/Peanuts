@@ -72,7 +72,7 @@ header{
   margin-left: 160px;
 
 }
-.calendar-input-link{
+/* .calendar-input-link{
   border: 1px solid #cccccc;
   border-radius: 1px;
   background: white;
@@ -105,7 +105,7 @@ header{
   cursor: pointer;
   text-align: right;
   margin-left: 20px;
-}
+} */
 h4{
   font: 18px;
   font-style: normal;
@@ -124,4 +124,19 @@ h4{
 }
 .body{
   color: #e3e1db;
+}
+/* .takecare-block{
+  /* text-align: center;
+  padding-bottom: 80px;
+} */ */
+.pic1{
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.pic2{
+  margin-left: 10px;
+}
+.pic3{
+  margin-left: 10px;
 }
