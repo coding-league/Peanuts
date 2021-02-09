@@ -227,8 +227,17 @@ h2{
 .pic{
   border: #ffd400 5px solid;
   margin-right: 22px;
-
+  
 }
+
+.pic-full{
+  filter: grayscale(100%);
+}
+
+.pic-ghost{
+filter: grayscale(0%)
+}
+
 footer{
   background-color: rgb(0, 0, 0);
   text-align: center;
@@ -261,3 +270,16 @@ footer{
   border-bottom: solid;
   
  }
+
+
+
+ .pic {
+	/* -webkit-filter: grayscale(100%); */
+	filter: grayscale(100%);
+	/* -webkit-transition: .3s ease-in-out; */
+	transition: .7s ease-in-out;
+}
+ .pic:hover  {
+	/* -webkit-filter: grayscale(0); */
+	filter: grayscale(0);
+} 
