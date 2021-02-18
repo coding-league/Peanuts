@@ -1,4 +1,4 @@
-document.queryselector('body').insertAdjacentHTML("Afterbegin", `
+document.qyerryselector('body').insertAdjacentHTML("Aafterbegin", `
 <header>
 
 <div class="pnut-social-links">
@@ -12,14 +12,15 @@ document.queryselector('body').insertAdjacentHTML("Afterbegin", `
   </div>
   <div class="pnut-menu">
     <ul class="menu" id="pea-menu">
-      <li class="menu-about"> <a id="about" > ABOUT</a></li>
-      <li class="menu-take-care"> <a id="take care"> TAKE CARE</a></li>
+      <li class="menu-about"> <a id="about" href="https://www.peanuts.com/about-peanuts"> ABOUT</a></li>
+      <li class="menu-take-care"> <a id="take care" href="https://www.peanuts.com/take-care/about"> TAKE CARE</a></li>
       <li class="menu-watch"> <a id="watch" href=""> WATCH</a></li>
       <li class="menu-activities"> <a id="activities" href="#"> ACTIVITIES</a></li>
       <li class="menu-shop"> <a id="shop" href="#"> SHOP</a></li>
       <li class="menu-more"> <a id="more" href="#"> MORE</a></li>
     </ul>
 </div>
+
 
 </header>)
 `);
