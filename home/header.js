@@ -1,7 +1,7 @@
 document.querySelector('body').insertAdjacentHTML('Afterbegin', `
 <header>  
     <div class="pnut-social-links">
-        <p> Follow us on </p>
+        <h3> Follow us on </h3>
       <ul class="social-links">
         <li> <a href="#"><i class="ion-social-facebook "></i></a></li>
         <li> <a href="#"><i class="ion-social-twitter "></i></a></li>
