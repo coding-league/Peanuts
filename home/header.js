@@ -13,11 +13,11 @@ document.querySelector('body').insertAdjacentHTML('Afterbegin', `
         <ul class="menu" id="pea-menu">
           <li class="menu-about"> <a id="about"> ABOUT</a></li>
           <li class="menu-take-care"> <a id="take care"> TAKE CARE</a></li>
-          <li class="menu-watch"> <a id="watch" href=""> WATCH</a></li>
-         <li class="menu-peanuts"> <a id="peanuts"  href="#"> HOME!!</a></li>
-          <li class="menu-activities"> <a id="activities" href="#"> ACTIVITIES</a></li>
-          <li class="menu-shop"> <a id="shop" href="#"> SHOP</a></li>
-          <li class="menu-more"> <a id="more" href="#"> MORE</a></li>
+          <li class="menu-watch"> <a id="watch" > WATCH</a></li>
+          <li class="menu-peanuts"> <a id="peanuts" > HOME!!</a></li>
+          <li class="menu-activities"> <a id="activities" > ACTIVITIES</a></li>
+          <li class="menu-shop"> <a id="shop"> SHOP</a></li>
+          <li class="menu-more"> <a id="more" > MORE</a></li>
         </ul>
     </div>)
 `);
