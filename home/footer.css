@@ -1,8 +1,46 @@
+footer{
+  background-color: rgb(0, 0, 0);
+  padding: 12px;
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+.footer-nav{
+  list-style: none;
+  text-align: center;
+}
 
-.footer-menu{
-  background-color: #000;
-  box-sizing: border-box;
+
+.footer-nav li a{
+  text-decoration: none;
+  color: #ddd;
+  display: inline-block;
+  margin-right: 20px;
   font-size: 18px;
-  
+  font-family: sans-serif;
+}
+.footer-nav li a:last child {
+  margin-right: 0;
 
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+  text-decoration: none;
+  border: 0;
+  color: #ddd;
+
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+  text-decoration: underline;
+}
+.legal p{
+  float: right;
+  margin-right: 80px;
+  font-size: 10px;
+  font-family: "roboto";
+}
+.legal img{
+  margin-left: 80px;
+  font-size: 12px;
 }
