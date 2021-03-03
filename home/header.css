@@ -41,7 +41,7 @@
 
 li{
   display: inline;
-  margin-left: 1px;
+  
  
 
 }
@@ -49,7 +49,8 @@ li{
 .pnut-menu ul li a{
   color: #ddd;
   display: inline;
-  margin-left: 1px;
+  margin-left: 12px;
+  text-align: center;
 }
 
 header{
