@@ -248,7 +248,7 @@ footer{
 
 .row ul li a{
   display: inline;
-  /* margin-right: 20px; */
+  margin-right: 10px;
   color: #ddd;
   /* margin-left:0 auto; */
   font-size: 20px;
@@ -283,3 +283,9 @@ footer{
 -webkit-filter: grayscale(0); 
 	filter: grayscale(0);
 }  */
+
+.bachground-pic{
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
