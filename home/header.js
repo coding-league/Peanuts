@@ -11,23 +11,46 @@ document.querySelector('body').insertAdjacentHTML('Afterbegin', `
       </ul>
     </div>
 
-    <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">ABOUT</a>
-  <a href="#news">TAKECARE</a>
-  <a href="#news">WATCH</a>
-  <a href="#contact">ACTIVITIES</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">PEANUTS LESSON PLANS</a>
-      <a href="#">PEANUTS COLORING SHEETS</a>
-      <a href="#">MOBILE APP</a>
+
+
+  <nav>
+  <div class="dropdown-menu">
+     <button class="menu-btn">ABOUT </button>
+      <div class="menu-content">
+      <a class="links-hidden" href="#">ABOUT PEANUTS</a>
+      <a class="links-hidden" href="#">MEET THE GANG</a>
+      </div>
+  </div>
+
+  
+  <div class="dropdown-menu">
+     <button class="menu-btn">TAKE CARE</button>
+      <div class="menu-content">
+      <a class="links-hidden" href="#">TAKE CARE WITH PEANUTS</a>
+      <a class="links-hidden" href="#">TOGETHER FOR GOOD</a>
+      <a class="links-hidden" href="#">TAKE CARE WITH SNNOOPY</a>
+      <a class="links-hidden" href="#">FAMILY CENTER</a>
+      </div>
+  </div>
+      <a class="links" href="#">WATCH</a>
+    <div class="dropdown-menu">
+     <button class="menu-btn">ACTIVITIES </button>
+      <div class="menu-content">
+      <a class="links-hidden" href="#">PEANUTS LESSONS PLANS</a>
+      <a class="links-hidden" href="#">PEANUTS COLORING SHEETS</a>
+      <a class="links-hidden" href="#">MOBILE APPS</a>
+      </div>
     </div>
-  </div> 
-  <a href="#about">SHOP</a>
-  <a href="#about">MORE</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+    <a class="links" href="#">SHOP</a>
+    <div class="dropdown-menu">
+     <button class="menu-btn">MORE </button>
+      <div class="menu-content">
+      <a class="links-hidden" href="#">CHARLES M.SCHULZ MUSEUM</a>
+      <a class="links-hidden" href="#">PEANUTS GLOBAL ARTIST COLLECTIVE</a>
+      <a class="links-hidden" href="#">SNOOPY AND BELLE IN FASHIN</a>
+      <a class="links-hidden" href="#">SNOOPY.CO.JP</a>
+      </div>
+    </div>
+  </nav>
+
 `);
